@@ -10,13 +10,13 @@
 
 #include <SoftwareSerial.h>
 
-#include <RtcDateTime.h>
-#include <RtcDS1307.h>
-
 #include <SPI.h>
 #include <SD.h>
-#include <Fishino.h>
-#include <FishinoDebug.h>
+
+#include "libInclude/Fishino/src/Fishino.h"
+#include "libInclude/Fishino/src/FishinoDebug.h"
+#include "libInclude/Rtc_by_Makuna/src/RtcDateTime.h"
+#include "libInclude/Rtc_by_Makuna/src/RtcDS1307.h"
 
 //end of add your includes here
 

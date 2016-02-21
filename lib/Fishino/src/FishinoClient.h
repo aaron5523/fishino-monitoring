@@ -5,7 +5,8 @@
 #include "Print.h"
 #include "Client.h"
 #include "IPAddress.h"
-#include <Flash.h>
+
+#include "../../../libInclude/Flash/Flash.h"
 
 class FishinoClient : public Client
 {

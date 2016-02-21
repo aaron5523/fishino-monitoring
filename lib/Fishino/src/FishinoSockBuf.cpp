@@ -1,5 +1,6 @@
+
 #define FISHINO_MODULE "FishinoSockBuf"
-#include "FishinoSockBuf.h"
+#include "../../../libInclude/Fishino/src/FishinoSockBuf.h"
 
 #include "Arduino.h"
 

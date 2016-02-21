@@ -18,10 +18,10 @@
 */
 
 #define FISHINO_MODULE "FishinoUdp"
-#include "Fishino.h"
-#include "FishinoUdp.h"
-#include "FishinoClient.h"
-#include "FishinoServer.h"
+#include "../../../libInclude/Fishino/src/Fishino.h"
+#include "../../../libInclude/Fishino/src/FishinoUdp.h"
+#include "../../../libInclude/Fishino/src/FishinoClient.h"
+#include "../../../libInclude/Fishino/src/FishinoServer.h"
 
 // Constructor
 FishinoUDP::FishinoUDP() : _sock(0xff)

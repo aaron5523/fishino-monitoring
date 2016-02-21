@@ -1,8 +1,9 @@
 // for in-program strings
-#include "Flash.h"
+#include "../../../libInclude/Flash/Flash.h"
+libInclude/Flash/Flash.h"
 
-#define FISHINO_MODULE "Fishino"
-#include "Fishino.h"
+#define FISHINO_"../../../libInclude/Fishino/src/Fishino.h"hino"
+#include "../../../libInclude/Fishino/src/Fishino.h"
 
 #include "Arduino.h"
 #include "SPI.h"

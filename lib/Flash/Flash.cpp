@@ -18,7 +18,7 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-#include "Flash.h"
+#include "../../libInclude/Flash/Flash.h"
 
 _FLASH_STRING::_FLASH_STRING(const char /* PROGMEM */ *arr) : _arr(arr) 
 { }

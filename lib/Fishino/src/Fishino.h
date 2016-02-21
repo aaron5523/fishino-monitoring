@@ -34,7 +34,7 @@
 #ifndef FISHINO_H
 #define FISHINO_H
 
-#include "FishinoDebug.h"
+#include "../../../libInclude/Fishino/src/FishinoDebug.h"
 
 // macro to build 32 bit version number from components
 #define VERSION(maj, min, dev) ( ((uint32_t)maj << 16) | ((uint32_t)(min & 0xFF)) << 8 | ((uint32_t)(dev & 0xFF)) )
@@ -691,8 +691,8 @@ class FishinoClass
 
 extern FishinoClass Fishino;
 
-#include "FishinoClient.h"
-#include "FishinoServer.h"
-#include "FishinoUdp.h"
+#include "../../../libInclude/Fishino/src/FishinoClient.h"
+#include "../../../libInclude/Fishino/src/FishinoServer.h"
+#include "../../../libInclude/Fishino/src/FishinoUdp.h"
 
 #endif

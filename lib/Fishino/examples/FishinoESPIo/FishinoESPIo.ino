@@ -1,8 +1,9 @@
 // Progetto : FishinoESPIo
 // Creato con l'applicazione TheArduIDE
-#include <Fishino.h>
 #include <SPI.h>
-#include <Flash.h>
+
+#include "../../../../libInclude/Fishino/src/Fishino.h"
+#include "../../../../libInclude/Flash/Flash.h"
 
 // Codice di inizializzazionecode
 void setup(void)

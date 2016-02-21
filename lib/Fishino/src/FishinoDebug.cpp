@@ -1,4 +1,4 @@
-#include "FishinoDebug.h"
+#include "../../../libInclude/Fishino/src/FishinoDebug.h"
 
 #ifdef FISHINO_MALLOC_DEBUG
 // debug malloc, to see allocation problems

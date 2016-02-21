@@ -1,8 +1,9 @@
-#define FISHINO_MODULE "FishinoServer"
-#include "FishinoServer.h"
-#include "Fishino.h"
 
-#include "FishinoSockBuf.h"
+#define FISHINO_MODULE "FishinoServer"
+#include "../../../libInclude/Fishino/src/FishinoServer.h"
+#include "../../../libInclude/Fishino/src/Fishino.h"
+
+#include "../../../libInclude/Fishino/src/FishinoSockBuf.h"
 
 // frees client data
 void FishinoServer::freeClients(void)

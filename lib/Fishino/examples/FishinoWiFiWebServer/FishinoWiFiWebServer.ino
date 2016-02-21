@@ -20,13 +20,13 @@
 
  */
 
-#include <Flash.h>
-#include <FishinoUdp.h>
-#include <FishinoSockBuf.h>
-#include <Fishino.h>
 #include <SPI.h>
 
 #include <SD.h>
+#include "../../../../libInclude/Fishino/src/Fishino.h"
+#include "../../../../libInclude/Fishino/src/FishinoSockBuf.h"
+#include "../../../../libInclude/Fishino/src/FishinoUdp.h"
+#include "../../../../libInclude/Flash/Flash.h"
 
 ///////////////////////////////////////////////////////////////////////
 //           CONFIGURATION DATA -- ADAPT TO YOUR NETWORK             //

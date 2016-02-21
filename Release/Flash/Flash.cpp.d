@@ -1,5 +1,6 @@
-Flash/Flash.cpp.o: /Users/asettl010/arduino/Fishino/Libs/Flash/Flash.cpp \
- /Users/asettl010/arduino/Fishino/Libs/Flash/Flash.h \
+Flash/Flash.cpp.o: \
+ /Users/asettl010/workspaces/arduino2/fishino_monitoring/lib/Flash/Flash.cpp \
+ /Users/asettl010/workspaces/arduino2/fishino_monitoring/lib/Flash/Flash.h \
  /Users/asettl010/Downloads/Arduino\ 2.app/Contents/Java/hardware/arduino/avr/cores/arduino/Arduino.h \
  /Users/asettl010/Downloads/Arduino\ 2.app/Contents/Java/hardware/arduino/avr/cores/arduino/binary.h \
  /Users/asettl010/Downloads/Arduino\ 2.app/Contents/Java/hardware/arduino/avr/cores/arduino/WCharacter.h \
@@ -12,7 +13,7 @@ Flash/Flash.cpp.o: /Users/asettl010/arduino/Fishino/Libs/Flash/Flash.cpp \
  /Users/asettl010/Downloads/Arduino\ 2.app/Contents/Java/hardware/arduino/avr/cores/arduino/Arduino.h \
  /Users/asettl010/Downloads/Arduino\ 2.app/Contents/Java/hardware/arduino/avr/variants/standard/pins_arduino.h
 
-/Users/asettl010/arduino/Fishino/Libs/Flash/Flash.h:
+/Users/asettl010/workspaces/arduino2/fishino_monitoring/lib/Flash/Flash.h:
 
 /Users/asettl010/Downloads/Arduino\ 2.app/Contents/Java/hardware/arduino/avr/cores/arduino/Arduino.h:
 

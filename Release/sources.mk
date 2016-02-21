@@ -36,8 +36,30 @@ SIZEDUMMY :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 src \
+lib/Rtc_by_Makuna/src \
+lib/Rtc_by_Makuna/examples/DS3231_StoreIt \
+lib/Rtc_by_Makuna/examples/DS3231_Simple \
+lib/Rtc_by_Makuna/examples/DS3231_Alarms \
+lib/Rtc_by_Makuna/examples/DS1307_Simple \
+lib/Rtc_by_Makuna/examples/DS1307_Memory \
+lib/Flash \
+lib/Fishino/src \
+lib/Fishino/examples/FishinoWiFiWebServer \
+lib/Fishino/examples/FishinoWiFiWebSecureClient \
+lib/Fishino/examples/FishinoWiFiWebClientRepeating \
+lib/Fishino/examples/FishinoUdpSendReceiveString \
+lib/Fishino/examples/FishinoUdpNtpClient \
+lib/Fishino/examples/FishinoTwitterSearch \
+lib/Fishino/examples/FishinoScanNetworks \
+lib/Fishino/examples/FishinoESPIo \
 . \
 arduino/core \
+Rtc_by_Makuna/src \
+Rtc_by_Makuna/examples/DS3231_StoreIt \
+Rtc_by_Makuna/examples/DS3231_Simple \
+Rtc_by_Makuna/examples/DS3231_Alarms \
+Rtc_by_Makuna/examples/DS1307_Simple \
+Rtc_by_Makuna/examples/DS1307_Memory \
 Libraries/Wire/utility \
 Libraries/Wire \
 Libraries/SoftwareSerial \
@@ -45,11 +67,4 @@ Libraries/SPI \
 Libraries/SD/src/utility \
 Libraries/SD/src \
 Flash \
-Fishino/src \
-Fishino/examples/FishinoWiFiWebServer \
-Fishino/examples/FishinoWiFiWebSecureClient \
-Fishino/examples/FishinoWiFiWebClientRepeating \
-Fishino/examples/FishinoTwitterSearch \
-Fishino/examples/FishinoScanNetworks \
-Fishino/examples/FishinoESPIo \
 

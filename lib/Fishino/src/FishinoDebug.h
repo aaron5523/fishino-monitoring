@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 
-#include <Flash.h>
+#include "../../../libInclude/Flash/Flash.h"
 
 // #define FISHINO_MALLOC_DEBUG
 

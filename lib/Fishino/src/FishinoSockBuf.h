@@ -3,9 +3,8 @@
 #ifndef __FISHINOSOCKBUF_H
 #define __FISHINOSOCKBUF_H
 
-#include "FishinoDebug.h"
-
 #include <inttypes.h>
+#include "../../../libInclude/Fishino/src/FishinoDebug.h"
 
 // buffer size (MAX 255 bytes, suggested 64 bytes or less for UNO, 255 for MEGA
 #define FISHINO_SOCKET_BUF_SIZE		16

@@ -1,10 +1,10 @@
 #include "Arduino.h"
 
 #define FISHINO_MODULE "FishinoClient"
-#include "Fishino.h"
-#include "FishinoClient.h"
+#include "../../../libInclude/Fishino/src/Fishino.h"
+#include "../../../libInclude/Fishino/src/FishinoClient.h"
 
-#include "FishinoSockBuf.h"
+#include "../../../libInclude/Fishino/src/FishinoSockBuf.h"
 
 //uint16_t EthernetClient::_srcport = 49152;      //Use IANA recommended ephemeral port range 49152-65535
 

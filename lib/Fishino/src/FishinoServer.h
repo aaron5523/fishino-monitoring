@@ -1,9 +1,8 @@
 #ifndef FISHINOSERVER_H
 #define FISHINOSERVER_H
 
-#include "FishinoClient.h"
-
 #include "Server.h"
+#include "../../../libInclude/Fishino/src/FishinoClient.h"
 
 class FishinoServer : public Server
 {
